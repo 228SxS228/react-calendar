@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Calendar from './components/Calendar';
+import Background from './components/Background';
 
 export default class App extends React.Component {
 	state = {
@@ -19,6 +20,7 @@ export default class App extends React.Component {
 				<Calendar
 					onChange={this.handleDateChange}
 				/>
+				<Background/>
 			</div>
 		);
 	}

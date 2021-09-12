@@ -1,3 +1,10 @@
+.calendar{
+    position: absolute;
+    left: 126px;
+    top: 183px;
+    border: 2px solid black;
+}
+
 .calendar header {
     display: flex;
     justify-content: center;
@@ -50,3 +57,5 @@
 .calendar .day.today.selected {
     border: 2px solid lightgray;
 }
+
+
