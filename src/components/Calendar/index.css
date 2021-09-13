@@ -3,6 +3,8 @@
     left: 126px;
     top: 183px;
     border: 2px solid black;
+    background-color:#FFFFFF ;
+    border-radius: 10px;
 }
 
 .calendar header {

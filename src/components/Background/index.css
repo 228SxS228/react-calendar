@@ -1,3 +1,15 @@
+h1{
+    color: #ffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 12px;
+}
+h2{
+    color: #1C9FF2;
+}
 .page{
     justify-content: center;
     align-items: center;
@@ -12,4 +24,20 @@
     border-radius: 30px;
     width: 1609px;
     height: 1000px;
+    display: flex;
+}
+
+.left{
+    width: 207px;
+    height: 850;
+    margin-left: 53px;
+    flex-direction: column;
+}
+.date{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+
 }
