@@ -6,10 +6,11 @@ export default class Background extends React.Component{
         return(
             <section className="page">
                 <div className="logbook">
-                    <h1 className="title">Журнал</h1>
+                    <h1>IntegrityWebManager</h1>
+                    <h2 className="title">Журнал</h2>
                     <div className="left">
-                        <table className='left__tabel'>
-                            <h2>Дата\время</h2>
+                        <ul className='left__tabel'>
+                            <h3>Дата\время</h3>
                             <tr className="date">05 июн 15:28:05</tr>
                             <tr className="date">05 июн 15:28:05</tr>
                             <tr className="date">05 июн 15:28:05</tr>
@@ -28,7 +29,7 @@ export default class Background extends React.Component{
                             <tr className="date">05 июн 15:28:05</tr>
                             <tr className="date">05 июн 15:28:05</tr>
                             <tr className="date">05 июн 15:28:05</tr>
-                        </table>
+                        </ul>
                     </div>
                 </div>
             </section>
