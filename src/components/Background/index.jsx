@@ -11,24 +11,24 @@ export default class Background extends React.Component{
                     <div className="left">
                         <ul className='left__tabel'>
                             <h3>Дата\время</h3>
-                            <tr className="date">05 июн 15:28:05</tr>
-                            <tr className="date">05 июн 15:28:05</tr>
-                            <tr className="date">05 июн 15:28:05</tr>
-                            <tr className="date">05 июн 15:28:05</tr>
-                            <tr className="date">05 июн 15:28:05</tr>
-                            <tr className="date">05 июн 15:28:05</tr>
-                            <tr className="date">05 июн 15:28:05</tr>
-                            <tr className="date">05 июн 15:28:05</tr>
-                            <tr className="date">05 июн 15:28:05</tr>
-                            <tr className="date">05 июн 15:28:05</tr>
-                            <tr className="date">05 июн 15:28:05</tr>
-                            <tr className="date">05 июн 15:28:05</tr>
-                            <tr className="date">05 июн 15:28:05</tr>
-                            <tr className="date">05 июн 15:28:05</tr>
-                            <tr className="date">05 июн 15:28:05</tr>
-                            <tr className="date">05 июн 15:28:05</tr>
-                            <tr className="date">05 июн 15:28:05</tr>
-                            <tr className="date">05 июн 15:28:05</tr>
+                            <tr className="date">04 июн 15:28:05</tr>
+                            <tr className="date">04 июн 15:28:05</tr>
+                            <tr className="date">04 июн 15:28:05</tr>
+                            <tr className="date">04 июн 15:28:05</tr>
+                            <tr className="date">04 июн 15:28:05</tr>
+                            <tr className="date">04 июн 15:28:05</tr>
+                            <tr className="date">04 июн 15:28:05</tr>
+                            <tr className="date">04 июн 15:28:05</tr>
+                            <tr className="date">04 июн 15:28:05</tr>
+                            <tr className="date">04 июн 15:28:05</tr>
+                            <tr className="date">04 июн 15:28:05</tr>
+                            <tr className="date">04 июн 15:28:05</tr>
+                            <tr className="date">04 июн 15:28:05</tr>
+                            <tr className="date">04 июн 15:28:05</tr>
+                            <tr className="date">04 июн 15:28:05</tr>
+                            <tr className="date">04 июн 15:28:05</tr>
+                            <tr className="date">04 июн 15:28:05</tr>
+                            <tr className="date">04 июн 15:28:05</tr>
                         </ul>
                     </div>
                 </div>
