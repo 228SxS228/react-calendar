@@ -1,37 +1,76 @@
-.page {
-    background-color: #378bc1;
-    width: 1680px;
-    height: 1050px;
-    display: flex;
-    position: relative;
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul
+{
+  margin: 0;
+  padding: 0;
 }
-.logbook {
-    display: flex;
+body{
+    background: #378BC1;
+}
+.page{
     width: 1609px;
     height: 1000px;
-    background-color: #0c4d78;
-    border-radius: 30px;
+    background: #0C4D78;
+    border-radius: 30px;   
+    margin-top: 25px ;
+    margin-left: 32px;
 }
-.title {
-    width: 131px;
-    height: 41px;
-    width: 144px;
-    height: 30px;
+.header{
+    display: flex;  
+}
+.logo{
+    width: 234px;
+    height: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #4383AC;
+    margin-top: 51px ;
+    margin-left: 93px;
+}
+.title{
+    margin-top: 44px;
+    margin-left: 437px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+.logbook{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+h3{
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
     line-height: 29px;
-    color: #1c9ff2;
+    color: #1C9FF2;
+    padding-bottom: 50px;
 }
-.left {
-    width: 207px;
-    height: 850px;
-}
-.date {
+p{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 23px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
 }
+/* .poloska{
+    width: 825px;
+    height: 0;
+    border: 1px solid #378BC1;
+    transform: rotate(90deg);
+} */
