@@ -1,5 +1,7 @@
 .book{
-    max-width: 1509px;
+    max-width: 1509px;display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
 }
 h3{
     font-family: Roboto;
