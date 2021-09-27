@@ -1,17 +1,9 @@
-import React from "react";
+import React from 'react';
 import './index.css';
 
-export default class Background extends React.Component{
-    render(){
-        return(
-            <body>
-                <div className="page">
-                        <div className="header">
-                            <h1 className="logo">IntegrityWebManager</h1>
-                            <h2 className="title">Журнал</h2>
-                            <div></div>
-                        </div>
-                        <div className="logbook">
+function Journal() {
+    return(
+        <div className="book">
                             <div className="left">
                                 <h3>Дата\время</h3>
                                 <ul className='left__tabel'>
@@ -83,8 +75,7 @@ export default class Background extends React.Component{
                                 </ul>
                             </div>
                         </div>
-                </div>
-            </body>
-        );
-    }
+    );
 }
+
+export default Journal;
