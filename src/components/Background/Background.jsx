@@ -10,10 +10,10 @@ export default class Background extends React.Component{
                         <div className="header">
                             <h1 className="logo">IntegrityWebManager</h1>
                             <h2 className="title">Журнал</h2>
-                            <div></div>
                         </div>
                         <div className="logbook">
                           <Journal/>
+
                         </div>
                 </div>
             </body>

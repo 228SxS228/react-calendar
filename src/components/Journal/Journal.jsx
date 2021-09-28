@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import Form from '../Form/Form';
 
 function Journal() {
     return(
@@ -25,6 +26,7 @@ function Journal() {
                                     <p>04 июн 15:28:05</p>
                                     <p>04 июн 15:28:05</p>
                                     <p>04 июн 15:28:05</p>
+                                    <Form/>
                                 </ul>
                             </div>
                             {/* <hr className="poloska"></hr> */}

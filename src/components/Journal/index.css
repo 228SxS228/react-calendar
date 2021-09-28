@@ -1,7 +1,19 @@
 .book{
-    max-width: 1509px;display: flex;
-    justify-content: space-around;
+    max-width: 1509px;
+    display: flex;
+    justify-content: space-between;
     margin-top: 60px;
+    margin-left: 53px;
+    margin-right: 63px;
+}
+.left{
+    max-width: 138px;
+}
+.center{
+    max-width: 321px ;
+}
+.right{
+    max-width: 676px;
 }
 h3{
     font-family: Roboto;
