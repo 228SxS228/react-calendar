@@ -29,7 +29,7 @@ function Journal() {
                                     <Form/>
                                 </ul>
                             </div>
-                            {/* <hr className="poloska"></hr> */}
+                            <div className="poloska"></div>
                             <div className="center">
                                 <h3>Название</h3>
                                 <ul className="center__table">
@@ -53,6 +53,7 @@ function Journal() {
                                    <p>Полное название данной компоненты</p>
                                 </ul>
                             </div>
+                            <div className="poloska"></div>
                             <div className="right">
                                 <h3>Сообщение</h3>
                                 <ul className="right__table">

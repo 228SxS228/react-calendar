@@ -3,16 +3,37 @@ import './index.css';
 
 
 function Form() {
+    
     const [date, setDate] = useState('')
-   
+    const [dateList, setDateList] = useState([]);
+
+
     return(
-        <div className="Form">
-            <p>{date}</p>
+        <div className="form">
+            <ul>
+                {dateList.map((m) => (
+                    <p key={m.id}>{m.date}</p>
+                ))}
+            </ul>
             <input 
             type="text" 
-            value={date}
-            onChange={event => setDate(event.target.value)}
+            onChange={(event) => {setDate(event.target.value);}}
             />
+            <button
+            onClick={(event) => {
+                setDateList([
+                    ...dateList,
+                    {
+                        id: dateList.length + 1, //добавляет id +1
+                        date: date
+                    }
+                ]);
+                // setDate("") если не надо добавлять одинаковые элементы
+            }}
+            >Добавить</button>
+            <button
+            
+            >Удалить</button>
         </div>
     );
 }

@@ -8,7 +8,7 @@ export default class App extends React.Component {
 	render() {
 		return (
 			<div>
-				{/* <Calendar onChange={this.handleDateChange}/> */}
+				<Calendar onChange={this.handleDateChange}/>
 				<Background/>
 			</div>
 		);
