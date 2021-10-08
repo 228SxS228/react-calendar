@@ -6,7 +6,9 @@ function Form() {
     
     const [date, setDate] = useState('')
     const [dateList, setDateList] = useState([]);
-
+    const del = (dateList) => {
+        setDateList(dateList.filter(p => p!== dateList));
+    };
 
     return(
         <div className="form">
@@ -32,7 +34,7 @@ function Form() {
             }}
             >Добавить</button>
             <button
-            
+            onClick={del}
             >Удалить</button>
         </div>
     );
